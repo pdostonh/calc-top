@@ -1,0 +1,88 @@
+#conainr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35em;
+    height: 30em;
+    margin: auto;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#centr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    height: 80%;
+    margin: auto;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+}
+
+#display {
+    height: 1em;
+    width: 98%;
+    height: 95%;
+    margin: auto;
+    margin-top: 1%;
+    background-color: darkcyan;
+    font-size: 350%;
+}
+
+#displayWrap {    
+    height: 18%;
+}
+
+.row {
+    display: flex;
+}
+
+#left button {
+    height: 19%;
+    width: auto;
+}
+
+#left #add {
+    height: 39.5%;
+}
+
+.rightRows {
+    display: flex;
+    justify-content: space-between;
+    height: 19%;
+    width: 100%;
+}
+
+.rightRows button {
+    width: 33%;
+}
+
+#equals{
+    width: 66%;
+}
+
+#frthRow .zero {
+    width: 66%;
+}
+
+body {
+    color: aliceblue;
+    text-align: right;
+}
+
+button {
+    font-size: 300%;
+}
